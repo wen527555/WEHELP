@@ -5,7 +5,7 @@
 
 使用INSERT指令新增一筆資料到member資料表中，這筆資料的username和password欄位必須是test，接著繼續新增至少4筆隨意的資料
 
-![picture](./screenshot/圖片 1.png)
+![picture](https://github.com/wen527555/WEHELP/blob/5f4c5637dc7877dc370362ef16d845fc09fc5642/week5/screenshot/%E5%9C%96%E7%89%87%201.png)
 
 使用SELECT指令取得所有在member資料表中的會員資料
 
