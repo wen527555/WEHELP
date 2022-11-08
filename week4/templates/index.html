@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <title>Week4</title>
+  </head>
+ <body>
+
+<header>歡迎光臨，請輸入帳號密碼</header>
+<div class="mean">
+  <h3>登入系統</h3>
+ <form action="/signin" method="POST" >
+帳號 <input type="text" name="name" /><br/>
+密碼 <input type="text" name="password" /><br/>
+<br/>
+<button>登入</button>
+<br/>
+</form>
+<br/>
+</div>
+
+<hr>
+
+<!-- 要求四 -->
+<div class="mean">
+  <h3>計算正整數的平方</h3>
+ 正整數 <input type="number" name="integer" id="integer"/><br/>
+ <br/>
+ <button  onclick="number()"">計算</button>
+<br/>
+</div> 
+</body>
+<script>
+  function number() {
+    const inputnumber = document.getElementById("integer");
+    const nums = inputnumber.value;
+    const integer = nums;
+    result = "http://127.0.0.1:3000/square/" + integer;
+    console.log(integer);
+    location.assign(result);
+  }
+</script>
+  </html>
