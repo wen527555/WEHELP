@@ -1,0 +1,16 @@
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #223344;
+
+  color: #ffffff;
+}
+
+.mean {
+  text-align: center;
+}
